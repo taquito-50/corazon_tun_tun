@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://www.dzoom.org.es/wp-content/uploads/2010/08/fotografias-atardecer-sol-6-734x489.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(238, 224, 224, 0);
+}
+
+.title {
+    font-size: 2em;
+    color: #ec8a8a;
+}
+
+.message {
+    font-size: 1.2em;
+    color: #d2a8a8;
+}
+
+.accept-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e100a56b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-button:hover {
+    background-color: #e99c9c;
+}
+
